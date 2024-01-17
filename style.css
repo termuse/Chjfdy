@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sans-Serif;
+}
+
+nav ul a{
+    margin: 0;
+    padding: 10px 15px;
+    display: inline-block;
+    justify-content: right;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.bg-1{
+    width: 100%;
+    height: 600px;
+}
+.b-p h1 {
+    position: absolute;
+    top: 11%;
+    left: 30%;
+    color: black;
+    font-size: 50px;
+}
+.b-p p {
+    position: absolute;
+    top: 14.5%;
+    left: 30.5%;
+    color: black;
+    font-size: 19px;
+}
+.bg-1 img{
+    width: 100%;
+}
+.bg-1 button{
+    position: absolute;
+    left: 45%;
+    top: 18%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.vd-p{
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 490px;
+    background-color: grey;
+}
+.vd-pb{
+    position: absolute;
+    left: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: darkgrey;
+}
+.inf-f{
+    width: 100%;
+    height: 300px;
+    background: url('test2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 500px;
+    color: white;
+}
+.inf-f h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.inf-f p {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.inf-f2{
+    padding: 0px;
+    position: relative;
+    left: 30px;
+    top: 130px;
+    width: 915px;
+    height: 623px;
+    border: 2px solid black;
+}
+.cr li{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: 58%;
+    display: inline-block;
+    margin-left: 30px;
+    text-align: right;
+    margin-top: 30px;
+    float: left;
+}
+.heyo{
+    width: 480px;
+    height:  620px;
+}
+.active{
+    position: relative;
+    top: 20px;
+}
+.inf-f2 ul {
+    list-style-type: none;
+    position: absolute;
+    left: 500px;
+    font-size: 30px;
+}
+.inf-f2 ul li{
+    font-weight: bold;
+    margin-top: 50px;
+}
